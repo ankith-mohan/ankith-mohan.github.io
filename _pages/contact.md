@@ -4,7 +4,9 @@ title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
-Computer Science Department, Stanford University<br>
-Gates 158, 353 Serra Mall, Stanford, CA 94305<br>
-Email: lantaoyu [at] cs.stanford.edu
-
+Computer Science Department<br>
+Virginia Polytechnic Institute and State University<br>
+1160 Torgersen Hall<br>
+620 Drillfield Drive<br>
+Blacksburg, VA 24061<br>
+Email: ankithmo [at] vt.edu
