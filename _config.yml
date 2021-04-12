@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ankith Mohan"
 title_separator          : "-"
 name                     : &name "Ankith Mohan"
-description              : &description "Ph.D. student, Computer Science Department, Virginia Tech"
+description              : &description "Ph.D. student, Computer Science, Virginia Tech"
 url                      : https://ankith-mohan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ankith-mohan/ankith-mohan.github.io"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Ankith Mohan"
   avatar           : "AnkithMohan.jpeg"
-  bio              : "Ph.D. student, Computer Science Department, Virginia Tech"
+  bio              : "Ph.D. student, Computer Science, Virginia Tech"
   location         : "Blacksburg, Virginia"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=h6EJ7CYAAAAJ&hl=en"
