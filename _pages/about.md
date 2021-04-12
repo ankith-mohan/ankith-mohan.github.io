@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+<!--
 <p align="center">
   <img src="https://ankith-mohan.github.io/images/AnkithMohan.jpeg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
+-->
 
 # About Me
 * I am a Ph.D. student in the [Computer Science Department](https://cs.vt.edu/) at [Virginia Tech](https://www.vt.edu/), advised by Professor [Jamie Sikora](https://sites.google.com/site/jamiesikora/). [[Curriculum Vitae](https://drive.google.com/file/d/11LIjrjJ5-7hvxIvT6B-2tYeu06UiOl1s/view?usp=sharing)] [[Google Scholar](https://scholar.google.com/citations?user=h6EJ7CYAAAAJ&hl=en)]
