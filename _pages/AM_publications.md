@@ -6,7 +6,7 @@ author_profile: true
 
 ## Preprints
 
-<b>[Graph Signal Recovery Using Restricted Boltzmann Machines](https://ankith-mohan.github.io/publications/denoiseRBM)</b> <br>
+<b>[Graph Signal Recovery using Restricted Boltzmann Machines](https://ankith-mohan.github.io/publications/denoiseRBM)</b> <br>
 <b>Ankith Mohan</b>, Aiichiro Nakano, Emilio Ferrara.
 <i>Preprint. arXiv:2011.10549</i>.
 
