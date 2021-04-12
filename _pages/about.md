@@ -15,9 +15,9 @@ redirect_from:
 -->
 
 # About Me
-* I am a first year Ph.D. student in the [Computer Science Department](https://cs.vt.edu/) at [Virginia Tech](https://www.vt.edu/), advised by Professor [Jamie Sikora](https://sites.google.com/site/jamiesikora/). [[Curriculum Vitae](https://ankith-mohan.github.io/files/CV_Ankith_Mohan.pdf)<!--(https://drive.google.com/file/d/11LIjrjJ5-7hvxIvT6B-2tYeu06UiOl1s/view?usp=sharing)-->] [[Google Scholar](https://scholar.google.com/citations?user=h6EJ7CYAAAAJ&hl=en)]
+* I am a first year Ph.D. student in [Computer Science](https://cs.vt.edu/) at [Virginia Tech](https://www.vt.edu/), advised by Professor [Jamie Sikora](https://sites.google.com/site/jamiesikora/). [[Curriculum Vitae](https://ankith-mohan.github.io/files/CV_Ankith_Mohan.pdf)<!--(https://drive.google.com/file/d/11LIjrjJ5-7hvxIvT6B-2tYeu06UiOl1s/view?usp=sharing)-->] [[Google Scholar](https://scholar.google.com/citations?user=h6EJ7CYAAAAJ&hl=en)]
 * My research interests lie in quantum information and in the general area of machine learning, particularly in deep learning, graph machine learning and probabilistic graphical models.
-* I received my Master’s Degree from the [University of Southern California](https://usc.edu/), advised by Professor [Aiichiro Nakano](https://viterbi.usc.edu/directory/faculty/Nakano/Aiichiro/) and Professor [Emilio Ferrara](http://emilio.ferrara.name).
+* I received my Master’s in Computer Science from the [University of Southern California](https://usc.edu/), advised by Professor [Aiichiro Nakano](https://viterbi.usc.edu/directory/faculty/Nakano/Aiichiro/) and Professor [Emilio Ferrara](http://emilio.ferrara.name).
 
 <!--
 # Academic Services
