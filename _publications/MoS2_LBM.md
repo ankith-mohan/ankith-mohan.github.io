@@ -2,7 +2,7 @@
 title: "Boltzmann machine modeling of layered MoS2 synthesis on a quantum annealer"
 collection: publications
 permalink: /publications/MoS2_LBM
-venue: "Computational Material Science, 2019"
+venue: "Computational Material Science"
 date: 2019-11-15
 citation: 'Jeremy Liu, <b>Ankith Mohan</b>, Rajiv K Kalia, Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta, Ke-Thia Yao. <i>Computational Material Science</i>, 2019.'
 ---
