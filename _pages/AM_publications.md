@@ -14,7 +14,7 @@ author_profile: true
 
 <b>[Boltzmann machine modeling of layered MoS2 synthesis on a quantum annealer](https://ankith-mohan.github.io/publications/MoS2_LBM)</b> <br>
 Jeremy Liu, <b>Ankith Mohan</b>, Rajiv K Kalia, Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta, Ke-Thia Yao.
-<i>Computational Material Science</i>, 2019.
+<i>Computational Material Science</i>, 2020.
 
 <b>[Performance of procedures for identifying influentials in a social network: prediction of time and memory usage as a function of network properties](https://ankith-mohan.github.io/publications/influence)</b> <br>
 Krishnaraj P.M, <b>Ankith Mohan</b>, Srinivasa K.G.
