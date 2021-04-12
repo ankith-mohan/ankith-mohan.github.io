@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/MoS2_LBM
 venue: "Computational Material Science"
 date: 2019-11-15
-citation: 'Jeremy Liu, <b>Ankith Mohan</b>, Rajiv K Kalia, Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta, Ke-Thia Yao. <i>Computational Material Science</i>, 2019.'
+citation: 'Jeremy Liu, <b>Ankith Mohan</b>, Rajiv K Kalia, Aiichiro Nakano, Ken-ichi Nomura, Priya Vashishta, Ke-Thia Yao. <i>Computational Material Science</i>, 2020.'
 ---
 [[PDF]](http://cacs.usc.edu/papers/Liu-QLBM-CMS20.pdf) [[Dataset]](https://data.mendeley.com/datasets/8pc8x7c3g6/2)
 
