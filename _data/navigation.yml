@@ -6,8 +6,8 @@ main:
   - title: "Publications"
     url: /AM_publications/
 
-  # - title: "Awards & Honors"
-  #   url: /awards/
+  - title: "Awards & Honors"
+    url: /AM_awards/
 
   # - title: "Talks"
   #   url: /talks/    
