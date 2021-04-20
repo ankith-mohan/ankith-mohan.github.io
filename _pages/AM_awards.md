@@ -3,6 +3,6 @@ title: "Awards & Honors"
 permalink: /AM_awards/
 author_profile: true
 ---
-* **Best Research Award** ([Link](https://viterbigrad.usc.edu/ms-awards/#:~:text=On%20May%203%2C%202021%2C%20USC,Awards%20ceremony%2C%20conducted%20via%20Zoom.)), Department of Computer Science, University of Southern California, 2021.
+* **Best Research Award** ([Link](https://viterbigrad.usc.edu/ms-awards/)), Department of Computer Science, University of Southern California, 2021.
 * **Overall GPA Ranking: Top 5 out of 151**, Department of Information Science and Engineering, Ramaiah Institute of Technology, 2012-2016.
 * **First Prize** ([Link](https://ankith-mohan.github.io/files/Open_day_MSRIT.pdf)) at Open Day, Department of Information Science and Engineering, Ramaiah Institute of Technology, 2016.
