@@ -54,7 +54,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               : "@mohan_ankith"
 facebook:
   username               : 
   app_id                 :
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Ankith Mohan"
   avatar           : "AnkithMohan.jpeg"
-  bio              : "Ph.D. student, Computer Science, Virginia Tech"
+  bio              : "Ph.D. student, CS Quantum Group @ VT, Virginia Tech"
   location         : "Blacksburg, Virginia"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=h6EJ7CYAAAAJ&hl=en"
@@ -103,7 +103,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "@mohan_ankith"
   vine             :
   weibo            :
   xing             :
