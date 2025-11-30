@@ -13,8 +13,8 @@ Please feel free to reach out to me at [ankithmo@vt.edu](mailto:ankithmo@vt.edu)
 ## Research Interests
 
 - **Quantum Repeaters for Quantum Communication**
-- **Quantum Error Correction**
 - **Quantum Information Theory**
+- **Quantum Error Correction**
 
 <!--## News
 
