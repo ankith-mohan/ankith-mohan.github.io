@@ -10,12 +10,12 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD Candidate at [Virginia Tech](https://vt.edu) advised by [Jamie Sikora](https://website.cs.vt.edu/people/faculty/jamie-sikora.html). I received my M.S. from the [University of Southern California](https://usc.edu), where I was fortunate to be advised by [Emilio Ferrara](https://viterbi.usc.edu/directory/faculty/Ferrara/Emilio) and [Aiichiro Nakano](https://viterbi.usc.edu/directory/faculty/Nakano/Aiichiro).
+I am a Postdoctoral Research Associate in the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu) at the [University of Massachusetts Amherst](https://www.umass.edu), where I work with [Gayane Vardoyan](https://people.cs.umass.edu/~gvardoyan) and [Philip S. Thomas](https://people.cs.umass.edu/~pthomas/). I received my Ph.D. in Computer Science from [Virginia Tech](https://vt.edu), where I was advised by [Jamie Sikora](https://sites.google.com/site/jamiesikora), and my M.S. in Computer Science from the [University of Southern California](https://usc.edu), where I worked with [Emilio Ferrara](https://viterbi.usc.edu/directory/faculty/Ferrara/Emilio) and [Aiichiro Nakano](https://viterbi.usc.edu/directory/faculty/Nakano/Aiichiro).
 
-My research lies at the intersection of **quantum computing**, **machine learning**, and **optimization**.
+My current research focuses on **quantum information** and **quantum networks**. I am particularly interested in developing algorithms and protocols for quantum communication and distributed quantum systems, with an emphasis on quantum repeater networks, entanglement distribution, and the use of optimization theory and reinforcement learning for network control.
