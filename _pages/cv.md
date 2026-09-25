@@ -30,8 +30,10 @@ nav_order: 3
 
 <style>
   .cv-desktop {
-    width: 100%;
-    height: 85vh;
+    width: min(95vw, 1400px);
+    height: 90vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
   .cv-mobile {
