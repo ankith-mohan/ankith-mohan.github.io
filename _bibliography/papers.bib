@@ -12,12 +12,12 @@
   about which learning tasks remain feasible under severe memory constraints. 
   We study the problem of computing global properties of quantum sequences when 
   quantum systems must be measured individually, without storing or jointly 
-  processing them. In our setting, a bit string x \in {0, 1}^n is encoded into 
-  an n-qubit product state \psi_{x_1} \otimes \cdots \otimes \psi_{x_n} , and 
-  the goal is to infer f(x) \in {0, 1} from measurements of this quantum encoding. 
+  processing them. In our setting, a bit string $x \in \{0, 1\}^n$ is encoded into 
+  an n-qubit product state $\ket{\psi_{x_1}} \otimes \cdots \otimes \ket{\psi_{x_n}}$ , and 
+  the goal is to infer $f(x) \in \{0, 1\}$ from measurements of this quantum encoding. 
   We consider a simple local strategy, which we call the greedy strategy, that 
   applies the same optimal single-system measurement independently to each 
-  subsystem and then infers f(x) from the outcomes. Our main result gives a complete
+  subsystem and then infers $f(x)$ from the outcomes. Our main result gives a complete
   characterization of when the greedy strategy is optimal: it achieves the same 
   maximum success probability as an unrestricted global measurement if and only 
   if the target Boolean function is affine (in all but finitely many cases). We 
@@ -40,14 +40,45 @@
   note={US Patent 12,566,780},
   pdf={https://patents.google.com/patent/US12566780B2/en},
 
-  abstract={A method may include obtaining a multi-dimensional training dataset that includes multiple datums. Each of the datums may correspond to a number of quantum bits (qubits) and may represent a quantum state. The method may also include generating, using a quantum computing device, a Gram matrix based on the multiple datums. In addition, the method may include determining, using a classical computing device, multiple operators according to a constraint defined by the Gram matrix. Each of the operators may be configured as a proxy for a corresponding datum. Further, the method may include assigning, using the classical computing device, each of the operators to a label.}
+  abstract={A method may include obtaining a multi-dimensional training dataset 
+  that includes multiple datums. Each of the datums may correspond to a number 
+  of quantum bits (qubits) and may represent a quantum state. The method may also 
+  include generating, using a quantum computing device, a Gram matrix based on 
+  the multiple datums. In addition, the method may include determining, using a 
+  classical computing device, multiple operators according to a constraint defined 
+  by the Gram matrix. Each of the operators may be configured as a proxy for a 
+  corresponding datum. Further, the method may include assigning, using the 
+  classical computing device, each of the operators to a label.},
+
+  selected={false}
 }
 
 @article{basak2026hierarchical,
   title={Hierarchical quantum decoders},
   author={Basak, Nirupam and Mohan, Ankith and Tanggara, Andrew and Haug, Tobias and Paul, Goutam and Bharti, Kishor},
-  journal={arXiv preprint arXiv:2601.21715},
-  year={2026}
+  arxiv={2601.21715},
+  year={2026},
+  journal={Preprint},
+
+  abstract={Decoders are a critical component of fault-tolerant quantum computing. 
+  They must identify errors based on syndrome measurements to correct quantum 
+  states. While finding the optimal correction is NP-hard and thus extremely 
+  difficult, approximate decoders with faster runtime often rely on uncontrolled 
+  heuristics. In this work, we propose a family of hierarchical quantum decoders 
+  with a tunable trade-off between speed and accuracy while retaining guarantees 
+  of optimality. We use the Lasserre Sum-of-Squares (SOS) hierarchy from optimization 
+  theory to relax the decoding problem. This approach creates a sequence of 
+  Semidefinite Programs (SDPs). Lower levels of the hierarchy are faster but 
+  approximate, while higher levels are slower but more accurate. We demonstrate 
+  that even low levels of this hierarchy significantly outperform standard Linear 
+  Programming relaxations. Our results on rotated surface codes and honeycomb 
+  color codes show that the SOS decoder approaches the performance of exact decoding. 
+  We find that Levels $2$ and $3$ of our hierarchy perform nearly as well as the 
+  exact solver. We analyze the convergence using rank-loop criteria and compare the 
+  method against other relaxation schemes. This work bridges the gap between fast 
+  heuristics and rigorous optimal decoding.},
+
+  selected={false}
 }
 
 @inproceedings{mohan2025quantum,
@@ -56,23 +87,83 @@
   booktitle={2025 IEEE 7th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)},
   pages={580--589},
   year={2025},
-  organization={IEEE}
+  organization={IEEE},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11410257},
+  arxiv={2509.25585},
+
+  abstract={Optimizing over separable quantum objects is challenging for two key 
+  reasons: determining separability is NP-hard, and the dimensionality of the 
+  problem grows exponentially with the number of qubits. We address both challenges 
+  by introducing a heuristic algorithm that leverages a quantum co-processor to 
+  significantly reduce the problem's dimensionality. We then numerically demonstrate 
+  that see-saw type optimization performs well in lower dimensional settings. A 
+  notable feature of our approach is that it yields feasible solutions, not just 
+  bounds on the optimal value, in contrast to many outer approximation based methods. 
+  We apply our method to the problem of finding separable states with minimal 
+  energy for a given Hamiltonian and use this to define an entanglement measure 
+  for its ground space. Finally, we demonstrate how our approach can approximate 
+  the separable ground energy of Hamiltonians up to 28 qubits.},
+
+  selected={false}
 }
 
 @article{basak2025approximate,
   title={Approximate dynamical quantum error-correcting codes},
   author={Basak, Nirupam and Tanggara, Andrew and Mohan, Ankith and Paul, Goutam and Bharti, Kishor},
-  journal={arXiv preprint arXiv:2502.09177},
+  arxiv={arXiv:2502.09177},
   year={2025},
+  journal={Preprint},
+
+  abstract={Quantum error correction plays a critical role in enabling fault-tolerant 
+  quantum computing by protecting fragile quantum information from noise. While 
+  general-purpose quantum error correction codes are designed to address a wide 
+  range of noise types, they often require substantial resources, making them 
+  impractical for near-term quantum devices. Approximate quantum error correction 
+  provides an alternative by tailoring codes to specific noise environments, 
+  reducing resource demands while still maintaining noise-robustness. Dynamical 
+  codes, including Floquet codes, introduce a dynamic approach to quantum error 
+  correction, employing time-dependent operations to stabilize logical qubits. 
+  In this work, we combine the flexibility of dynamical codes with the versatility 
+  of approximate quantum error correction to offer a promising avenue for addressing 
+  dominant noise in quantum systems. We construct several approximate dynamical 
+  codes using the recently developed strategic code framework. As a special case, 
+  we recover the approximate static codes widely studied in the existing literature. 
+  By analyzing these approximate dynamical codes through semidefinite programming, 
+  we establish the uniqueness and robustness of the optimal encoding, decoding, 
+  and check measurements. We also develop a temporal Petz recovery map suited to 
+  approximate dynamical codes.},
+
   selected={true}
 }
 
 @inproceedings{beigi2024internalinspector,
-  title={Internalinspector i2: Robust confidence estimation in llms through internal states},
+  title={InternalInspector I^2: Robust confidence estimation in LLMs through internal states},
   author={Beigi, Mohammad and Shen, Ying and Yang, Runing and Lin, Zihao and Wang, Qifan and Mohan, Ankith and He, Jianfeng and Jin, Ming and Lu, Chang-Tien and Huang, Lifu},
   booktitle={Findings of the association for computational linguistics: EMNLP 2024},
   pages={12847--12865},
   year={2024},
+  publisher={Association for Computational Linguistics},
+  pdf={https://aclanthology.org/2024.findings-emnlp.751.pdf},
+  arxiv={2406.12053v1},
+
+  abstract={Despite their vast capabilities, Large Language Models (LLMs) often 
+  struggle with generating reliable outputs, frequently producing high-confidence 
+  inaccuracies known as hallucinations. Addressing this challenge, our research 
+  introduces InternalInspector, a novel framework designed to enhance confidence 
+  estimation in LLMs by leveraging contrastive learning on internal states 
+  including attention states, feed-forward states, and activation states of all 
+  layers. Unlike existing methods that primarily focus on the final activation 
+  state, InternalInspector conducts a comprehensive analysis across all internal 
+  states of every layer to accurately identify both correct and incorrect prediction 
+  processes. By benchmarking InternalInspector against existing confidence estimation 
+  methods across various natural language understanding and generation tasks, 
+  including factual question answering, commonsense reasoning, and reading comprehension, 
+  InternalInspector achieves significantly higher accuracy in aligning the 
+  estimated confidence scores with the correctness of the LLM's predictions and 
+  lower calibration error. Furthermore, InternalInspector excels at HaluEval, a 
+  hallucination detection benchmark, outperforming other internal-based confidence 
+  estimation methods in this task.},
+
   selected={true}
 }
 
@@ -84,7 +175,23 @@
   number={4},
   pages={042211},
   year={2024},
-  publisher={APS}
+  publisher={APS},
+  pdf={https://journals.aps.org/pra/pdf/10.1103/PhysRevA.110.042211},
+  arxiv={2403.17252},
+
+  abstract={The quantum state discrimination problem has Alice sending a quantum 
+  state to Bob who wins if he correctly identifies the state. The pretty good 
+  measurement, also known as the square root measurement, performs pretty well 
+  at this task. We study the version of this problem where Bob tries to lose with 
+  the greatest probability possible (which is harder than it sounds). We define 
+  the pretty bad measurement, which performs pretty well at this task, or in 
+  other words, pretty poorly for the original task. We show that both the pretty 
+  good measurement and the pretty bad measurement are always no worse than blind 
+  guessing at their respective tasks. As an application, we apply the pretty bad 
+  measurement to the quantum state anomaly detection problem and show how to avoid 
+  pretty bad qubits.},
+
+  selected={false}
 }
 
 @misc{liu2024identification,
@@ -93,17 +200,50 @@
   year={2024},
   month=jul # "~18",
   publisher={Google Patents},
-  note={US Patent App. 18/156,330}
+  note={US Patent App. 18/156,330},
+  pdf={https://patents.google.com/patent/US20240241910A1/en},
+
+  abstract={A method may include obtaining a graph dataset that represents a social 
+  network and includes a plurality of nodes. The method may include partitioning 
+  the graph dataset into a first node cluster and a second node cluster in which 
+  the first node cluster and the second node cluster each include one or more 
+  nodes from the graph dataset. The method may include identifying one or more 
+  first candidate influential nodes included in the first node cluster and one 
+  or more second candidate influential nodes included in the second node cluster. 
+  The method may include selecting one or more of the first candidate influential 
+  nodes and the second candidate influential nodes as influencer nodes and 
+  identifying a respective object included in the social network corresponding 
+  to each of the influencer nodes.},
+
+  selected={false}
 }
 
 @misc{mohan2026hybridquantumclassicalalgorithmbayesoptimal,
-      title={A hybrid quantum-classical algorithm for Bayes-optimal quantum state discrimination using the source code}, 
-      author={Ankith Mohan and Jamie Sikora and Sarvagya Upadhyay},
-      year={2026},
-      eprint={2312.04023},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2312.04023}, 
+  title={A hybrid quantum-classical algorithm for Bayes-optimal quantum state discrimination using the source code}, 
+  author={Ankith Mohan and Jamie Sikora and Sarvagya Upadhyay},
+  arxiv={2312.04023},
+  year={2026},
+  journal={Preprint},
+
+  abstract={Quantum state discrimination is a fundamental primitive in quantum 
+  information processing, underpinning tasks in quantum communication, sensing, 
+  and learning. We consider the general Bayes framework, as introduced by Helstrom, 
+  for state discrimination when, instead of a classical description of the candidate 
+  states, one has access to their source code: the quantum circuit that prepares 
+  them. We show that the semidefinite program (SDP) for the discrimination problem 
+  can be reformulated in terms of the Gram matrix of these states, reducing the 
+  SDP variable dimensions from $d L$ to $N L$, where $d$ is the Hilbert space 
+  dimension, $N$ is the number of candidate states, and $L$ is the number of 
+  possible guesses. Importantly, we further introduce a quantum pre-processing 
+  procedure which efficiently constructs the reduced semidefinite program from 
+  the source code, enabling our method to operate directly on quantum data. We 
+  consider two applications. First, we characterize the optimal identifications 
+  for quantum changepoint problems under several reward structures, including 
+  multiple-changepoint settings that were previously computationally inaccessible. 
+  Second, we consider a quantum error classification problem and show how our 
+  reduction makes it tractable for systems of hundreds of qubits.},
+
+  selected={false}  
 }
 
 @article{mohan2021graph,
@@ -113,7 +253,21 @@
   volume={185},
   pages={115635},
   year={2021},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  pdf={https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417421X00176/1-s2.0-S0957417421010290/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECoaCXVzLWVhc3QtMSJHMEUCIHdzu7bM4eM39JGs3xZFKwcR1EJwGzdk6RkhqR6J%2FSo4AiEA7PjmA55%2FKE4roxijGTurrq5LsVVaSpQ%2BsCPXrBUmocwqvAUI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDMFDHAnPDeF6x7DndSqQBd7hnn%2FUqyk9WvLoqCQakQD9DFamo5AvK%2Fq%2BaT%2BtmPR9KAaqEYvRF7rFg9SckUPFgdF6nOAMrdSi%2Fla8akwqsampmSAqmSF8%2B7QjjxXU2PPROmLj6EUqr7EXUIHxVpUmTpxWpsjB3wz9BE4Sgs0e7CH8JTt%2FOXKGM08aVzKb%2FAhCzjxBjfvG1Wk%2F2bRByFif75%2BIYvOmP7PoqPM7%2F6qhrYxzr5YqrT3K8HResNKHmFuajFxqt4L2CSTzod5xH2ZL5mYfSqP1uUS45Y2cxNL83oiQ5kcFAvYJo1tb%2F4xX3dDqkIeX1SqJoDnISguPAuYm08EzuaEZUYETiCrRNSCXuOU2m6TqNwM3I%2BU5hrhyPOu%2FcsNs74yBJUg%2F9bx7%2F56mlxRhqhiWgqp5jpd6hst5%2F0OavebFOVwHiJyWWxwpkXAdVR88mPzYisO7fe%2F8RH6m6B8KcdHqzjREssG7nDpT0XE2ZoziTV3llZUpbMv12YdQdxFQGmlMMFvDhTeEzVgRH7PkDZzEsP%2Bs4V2YtIdamrjDvzolkmRaVwwR6L8PkOtBDo1zr2u8JiRD%2BJehlA7s8VZ4uArl%2Bdx96wQQl%2Bznw4N%2F%2FxnycFStxaAAX9TdPECbmVPTg67355YbgomTx0%2B18IHKpndJspqd5bQKwdqQRHVwKNWK8cqKMHkoCwkizazXluI4DWyelfnEAChRc4nMHOojprZKTqRHoy5gFhCV0TNf1qEtwOyqygxqdTCy%2FnhcFwgoDL1vpHFWVgmlrfLtecRE8vaIAuMwXaDI%2FBBA5ELQ%2B7ZzFXizcAIYh43BbXJFCgrhr1jvV%2FG9QIFamSXbGZIOLRm8S7%2BtA7Vw8l0vB71B8sGjq0%2FSy25eYwuSiQRAMI3e2tUGOrEBF3z42KcieMXKi6MeHX4%2FFLuqeGtXar2sEuXcBcVyQyBSH8%2FgHVIgimEf45fpEOaF87TBE3lRWPKkv8GRGP1nW834eC%2FzZKkhB4M2H23l2w%2FQEByEPW%2B2L9AKWlmX5CytFr9lKxT2Y0u%2B2picZxbeZkIbcOfe8GcdEhdFj%2F6HPVaq%2Fc0ZXTYQeOSYo8hef4JsAwaSoT26bKSGxb6XkDToWW8Tvspp6e7DW%2BgUloT5FhCJ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260925T191939Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQVHLUHN4%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1bc9792fb63b822cd81e2affa196084b19e968d0d371766d22f34c059480e6bf&hash=d95e53005a2dcf117723a4f943dbf95782e0e71ba1e6fee2eae996cbe931cf2b&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417421010290&tid=spdf-6be7f767-0d2d-4c49-804b-0567f63c011a&sid=0604e03079f5494fda792bb362ed13ce7d0fgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f1507545e025355025b53&rr=a40c61b80aa67ad5&cc=us},
+  arxiv={2011.10549v1},
+
+  abstract={We propose a model-agnostic pipeline to recover graph signals from 
+  an expert system by exploiting the content addressable memory property of 
+  restricted Boltzmann machine and the representational ability of a neural 
+  network. The proposed pipeline requires the deep neural network that is 
+  trained on a downward machine learning task with clean data, data which is free 
+  from any form of corruption or incompletion. We show that denoising the 
+  representations learned by the deep neural networks is usually more eﬀective 
+  than denoising the data itself. Although this pipeline can deal with noise in 
+  any dataset, it is particularly eﬀective for graph-structured datasets.},
+
+  selected={false}
 }
 
 @article{liu2020boltzmann,
@@ -123,14 +277,56 @@
   volume={173},
   pages={109429},
   year={2020},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  pdf={https://pdf.sciencedirectassets.com/271513/1-s2.0-S0927025619X00154/1-s2.0-S0927025619307281/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECsaCXVzLWVhc3QtMSJIMEYCIQD3d4I9vYJ8T5VxDt9Lfhen2POzTXH2aSyFbK%2BGcHLE1wIhAPsMfHfV50gaLCw4Wxx5%2Bo8jsuxwdMxpzlq3ryNLuW3XKrwFCPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgxE%2Fi8Bbv7oA7tUkYMqkAW33yMsYdwEKr3VJj8tS4qL34EcLGzNCmj0nJVbqpGCADtVC23JUL81ngmgn2mWxePZajU1AMxjDfoCHdtJVWOqvGpc7wHInDadOtxFrCdfZ7EdQ7lfG0xhhP7N4LKpSskQBE0a0NKGZZra%2FmN2T5geJrb5vxpV%2F7BTQYm88PhsezLjFxeEhqlaSRZExftRTgQLzKY%2BV45Ks3mTUWRFFsxkomZjIcfMMuIhC5sJn9PSZZ9LV11cQrvsYvxdv0lZJo9Dq1nu9wMV3VaKGG9BvYZxIbj23u9MWd4bLxwsKlYt5K49x0MRGTKDmBtWlzpuDlNlz0wxnQKSb0Tdh25jBoleNDE2J8b5WigT1uLHIfHC9HgXFdXynjCHI9jCGrLYJcwy31UR3GboNtd2s0%2BhkqqNz%2BjSuNtHpFPtwIMHgXK7SjkBCgXsgZJ3Z5UCWtASsNoddhIC0Fhb4si%2BfJxH2TgxRnoSQPRX0FshsX45LoN15xSPvA%2FyADdCkgoydp9N8G9ZfiWyigsENXDA4mxTIIZmbVAZLoCDChoS9ZOYgf4jNDGcCgvOvx33wqNHo8KZlEVbk%2F%2BmNXuDxF6tRrAVa9KqB1HJLsTMTuRkS6bkcoJ8NZm1HDgDIsog1NQ5XL4Ac5Y7EP0N4Oko%2FOKaXOi%2Fgk%2B9kl4Hpyos18wlQhJOZaOsRU6K7GIZpVsdsj%2B%2Br%2B1pdXPcR1%2BjGiP9MYzT%2F1LfHr6%2BoqbZo2wyIDCOZGu5YsfgPUwiJPBwsr%2Bz8Wadb2nbMQ0CplhIMDWq9BjdkUK7b%2BX4Z79ZMdCzFW0Jj1s%2Fg4uKxF1mgvL0g4UNR%2BcDvWqkANrfC040sdY7VMgTX3L8GGUsbUtXOYICDaPass33shKxWjCJg9vVBjqwAdNtWQ0pfs85yIyiHBH7fSJ618EgYfZMC4XTXdki4wcOiQYd5FQS3%2FZ0pDNddcJ2T9KNIbfhTAjbRbm1EJexnn4qIypFyrDyhv5S9D7Tk84PcEK6t2ihxyC1dFGkc8HteEbpBKrfW1GQK9BqsvQRVhdHVkQyceKFpmGgwQN5mhyM4Dy%2FvDsavb0NciHMQOHvLApHSscEX2HHriWGsrjgWstv4A3OErmv65UVMkU%2BIVcg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260925T192420Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7OTDQX5O%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1c3f803d2a1376a02372d051a3ffe2fa80d538bba34bec93e9a8f5fa72eff2f3&hash=9c33d9684536387e5426d6d7fc7fbd64c63769861aa31323ae3428d827b14b31&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0927025619307281&tid=spdf-27f93775-89ce-420d-8aee-1190a0176171&sid=0604e03079f5494fda792bb362ed13ce7d0fgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f1507545e02535c595255&rr=a40c68916c287207&cc=us},
+
+  abstract={Two-dimensional layered materials are usually synthesized by chemical 
+  vapor deposition (CVD). Here we use the Restricted Boltzmann Machine (RBM) and 
+  its enhancement called Limited Boltzmann Machine (LBM) on a quantum computer 
+  to model the chemical vapor deposition (CVD) growth data for a MoS2 monolayer. 
+  The CVD data for Boltzmann machines are generated by reactive molecular dynamics 
+  (RMD) simulations. The Boltzmann machines give insight into the semiconducting 
+  (2H) and metallic (1T) phases and defects generated during the CVD growth of 
+  MoS2. We compare the performances of the two types of Boltzmann machine models, 
+  i.e., RBM versus augmented topologies with limited intra-layer coupling between 
+  the hidden units (LBM). We show that limited topologies have a performance 
+  advantage over restricted topologies. We examine connectivity within our 
+  topological variants, explore hardware qubit mapping schemes, and discuss what 
+  performance differences may imply about locality within the data without prior 
+  knowledge.},
+
+  selected={false}
 }
 
 @book{pm2018practical,
   title={Practical social network analysis with python},
   author={PM, Krishna Raj and Mohan, Ankith and Srinivasa, KG},
   year={2018},
-  publisher={Springer}
+  publisher={Springer},
+  html={https://link.springer.com/book/10.1007/978-3-319-96746-2},
+
+  abstract={This book focuses on social network analysis from a computational 
+  perspective, introducing readers to the fundamental aspects of network theory 
+  by discussing the various metrics used to measure the social network. It covers 
+  different forms of graphs and their analysis using techniques like filtering, 
+  clustering and rule mining, as well as important theories like small world 
+  phenomenon. It also presents methods for identifying influential nodes in the 
+  network and information dissemination models. Further, it uses examples to 
+  explain the tools for visualising large-scale networks, and explores emerging 
+  topics like big data and deep learning in the context of social network analysis.
+  
+  With the Internet becoming part of our everyday lives, social networking tools 
+  are used as the primary means of communication. And as the volume and speed 
+  of such data is increasing rapidly, there is a need to apply computational 
+  techniques to interpret and understand it. Moreover, relationships in molecular 
+  structures, co-authors in scientific journals, and developers in a software 
+  community can also be understood better by visualising them as networks.
+  
+  This book brings together the theory and practice of social network analysis 
+  and includes mathematical concepts, computational techniques and examples from 
+  the real world to offer readers an overview of this domain.},
+
+  selected={false}
 }
 
 @article{krishnaraj2017performance,
@@ -141,5 +337,17 @@
   number={1},
   pages={34},
   year={2017},
-  publisher={Springer}
+  publisher={Springer},
+  html={https://link.springer.com/article/10.1007/s13278-017-0454-1},
+
+  abstract={Identification of influential nodes in a social network is an 
+  interesting problem since these nodes assist in faster information propagation 
+  in the network. In the current work, the procedures based on Cole and Weiss 
+  are used to identify influentials in networks of various sizes and their 
+  performances are analyzed. Further it is established that preprocessing 
+  techniques like clustering and sampling improve the performance of Cole 
+  and Weiss procedures. Finally, the computational resources required for these 
+  procedures are estimated based on network properties.},
+
+  selected={false}
 }
